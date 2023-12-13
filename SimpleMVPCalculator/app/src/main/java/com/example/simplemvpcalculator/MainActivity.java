@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements CalculatorView {
         presenter = new Presenter(this);
         txtNumber = findViewById(R.id.txtNumber);
         TableLayout table = findViewById(R.id.numpad);
+
         for (int i = 0; i < table.getChildCount(); i++){
             TableRow row = (TableRow) table.getChildAt(i);
             for(int j = 0; j < row.getChildCount(); j++){

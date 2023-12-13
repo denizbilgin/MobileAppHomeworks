@@ -29,6 +29,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="5sp"
                 android:layout_weight="1"
                 android:text="7"
                 app:cornerRadius="0sp" />
@@ -37,6 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="8"
                 app:cornerRadius="0sp" />
 
@@ -44,6 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="9"
                 app:cornerRadius="0sp" />
 
@@ -51,6 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="-"
                 app:cornerRadius="0sp" />
         </TableRow>
@@ -64,6 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="4"
                 app:cornerRadius="0sp" />
 
@@ -72,17 +77,20 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="5"
+                android:layout_margin="5sp"
                 app:cornerRadius="0sp" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="5sp"
                 android:layout_weight="1"
                 android:text="6"
                 app:cornerRadius="0sp" />
 
             <Button
                 android:layout_width="wrap_content"
+                android:layout_margin="5sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="+"
@@ -97,6 +105,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="5sp"
                 android:layout_weight="1"
                 android:text="1"
                 app:cornerRadius="0sp" />
@@ -105,6 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="2"
                 app:cornerRadius="0sp" />
 
@@ -112,12 +122,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="3"
                 app:cornerRadius="0sp" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="5sp"
                 android:layout_weight="1"
                 android:text="0"
                 app:cornerRadius="0sp" />
@@ -131,6 +143,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="5sp"
                 android:layout_weight="1"
                 android:text="="
                 app:cornerRadius="0sp" />
@@ -139,6 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:layout_margin="5sp"
                 android:text="Clear"
                 app:cornerRadius="0sp" />
         </TableRow>

@@ -13,16 +13,24 @@ public class SimpleCalculator {
     }
 
     public void setOperand(int operand) {
-        if(operand1 ==null)
+        if(operand1 == null) {
             operand1 = operand;
-        else
+        }
+        else {
             operand2 = operand;
-        if(operator == null)
+        }
+
+        if(operator == null) {
             return;
-        if(operator.equals("+"))
+        }
+
+        if(operator.equals("+")) {
             operand1 += operand2;
-        else if (operator.equals("-"))
+        }
+        else if (operator.equals("-")) {
             operand1 -= operand2;
+        }
+
         listener.onResultCalculated(operand1);
     }
 

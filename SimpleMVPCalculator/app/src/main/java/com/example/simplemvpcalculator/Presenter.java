@@ -7,7 +7,6 @@ public class Presenter implements CalculatorListener, View.OnClickListener {
     SimpleCalculator calculator;
     CalculatorView calculatorView;
 
-    boolean operatorExpected;
     boolean newNumber = true;
     public Presenter(CalculatorView view){
         this.calculatorView = view;
@@ -21,7 +20,7 @@ public class Presenter implements CalculatorListener, View.OnClickListener {
         Log.d("Presenter", symbol);
 
 
-        if(symbol.equals("+") || symbol.equals("-")|| symbol.equals("=")){
+        if(symbol.equals("+") || symbol.equals("-")|| symbol.equals("=")){ // 1 + 12 =
             calculator.setOperand(Integer.parseInt(
                     calculatorView.getOperand()));
             calculator.setOperator(symbol);
