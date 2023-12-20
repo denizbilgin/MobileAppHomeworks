@@ -13,8 +13,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.week9.placeholder.PlaceholderContent;
-
 import java.util.ArrayList;
 
 public class NoteFragment extends Fragment {
